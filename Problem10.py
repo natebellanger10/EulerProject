@@ -1,3 +1,5 @@
+"""Find the sum of all primes below 2x10^6"""
+
 def isprime(n):
 	'''check if integer n is a prime'''
 	# make sure n is a positive integer
