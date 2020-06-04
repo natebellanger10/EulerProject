@@ -1,14 +1,17 @@
 '''smallest number divisible by 1 to 20'''
 
-counter = 20
-#divisor = 0
-listDivisor = list(range(2,20))
-running = False
+def does_it_divide(n):
+    for i in [11,13,14,15,16,17,18,19,20]:
+      if n % i != 0:
+            return False
+    return True
 
-while running == False:
-    for i in listDivisor:
-        if counter % i == 0:
-            running = True
-        else:
-            counter+=1
 
+counter = 2522
+
+while True:
+    if does_it_divide(counter):
+        break
+    counter+=1
+
+print(counter)
