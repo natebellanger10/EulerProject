@@ -1,2 +1,2 @@
 # Home
-General Programming Projects
+This is a repository of Euler project solutions.
