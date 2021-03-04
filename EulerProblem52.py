@@ -3,9 +3,6 @@
 #Find the smallest positive integer, x, such that 2x, 3x, 4x, 5x, and 6x, contain the same digits.
 
 
-i = 995806754
-print(list(str(i)))
-
 from collections import Counter as C
 
 def checker (a, b, C):
